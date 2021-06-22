@@ -1,4 +1,4 @@
-# v1.0.0
+# v1.1.0
 
 import time
 import datetime
@@ -111,6 +111,6 @@ if __name__ == "__main__":
     happyBirthday(name)
 
     print("\n\nFrom Fifty :3")
-    
+    print("test")
     askAgain()
     
