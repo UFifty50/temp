@@ -1,9 +1,8 @@
-# v1.4.3
+# v1.3.4
 
 import time
 import datetime
 import requests
-import sys
 import os
 
 now = datetime.datetime.now()
@@ -84,7 +83,7 @@ def checkForUpdate():
     f1.close
     
     f1 = open("tmp.py", "r")
-    f2 = open(sys.argv[0], "r")
+    f2 = open(__file__, "r")
     fa = f1.readlines()
     fb = f2.readlines()
     
