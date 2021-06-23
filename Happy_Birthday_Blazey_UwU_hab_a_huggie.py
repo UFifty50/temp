@@ -1,8 +1,7 @@
-# v1.2.0
+# v1.4.3
 
 import time
 import datetime
-import filecmp
 import requests
 import sys
 import os
