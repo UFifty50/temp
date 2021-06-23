@@ -1,4 +1,4 @@
-# v1.1.0
+# v1.2.0
 
 import time
 import datetime
@@ -92,8 +92,10 @@ def checkForUpdate():
     print("checking for updates...")
     
     if fa[0] != fb[0]:
-        print("ono")
+        print("updates found.")
+        print("updating...")
         os.rename("tmp.py", __file__)
+        print("updated!")
         try:
             os.remove("tmp.py")
         except Exception:
@@ -111,6 +113,5 @@ if __name__ == "__main__":
     happyBirthday(name)
 
     print("\n\nFrom Fifty :3")
-    print("test")
-    askAgain()
     
+    askAgain()
